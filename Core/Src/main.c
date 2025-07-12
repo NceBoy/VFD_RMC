@@ -111,7 +111,9 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-
+    //根据状态机去获取状态，更新菜单/改写菜单
+    //读写缓存队列，处理（回复/改写led状态/写寄存器）
+    //读取发送缓存，发送串口
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
